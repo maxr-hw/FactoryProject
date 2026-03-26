@@ -17,13 +17,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1a4dd1a008ba1ff4d99a9a80c487ea17, type: 3}
   - {fileID: 8300000, guid: 78c52ddb3963bbf4f89032a43be35081, type: 3}
   - {fileID: 8300000, guid: bfbf3b989fb7d2443ac5148e0d62fd55, type: 3}
-  placeSound: {fileID: 8300000, guid: b99da9a57308d4ba1bee1cf1d9038376, type: 3}
-  deleteSound: {fileID: 8300000, guid: a0010a1a0c474473b81729eb770c485f, type: 3}
+  placeSound: {fileID: 8300000, guid: 7bef0064f8567430cac22499c6b93d4f, type: 3}
+  deleteSound: {fileID: 8300000, guid: 7e26c9daf4c32483b9c2790e662d3f1b, type: 3}
   rotateSound: {fileID: 8300000, guid: 724131bc8a7f34041bb9f1701f0cb58d, type: 3}
-  errorSound: {fileID: 8300000, guid: 6e8772b49f34d402a90016ed445d8a2f, type: 3}
+  errorSound: {fileID: 8300000, guid: 5fdb13d3756c84fecac96f5a2d124370, type: 3}
   clickSound: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
-  openUISound: {fileID: 8300000, guid: dc6614beca09347ec9b258f12d154bdd, type: 3}
-  closeUISound: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
-  contractStartedSound: {fileID: 8300000, guid: ff5f85da24bc943d1abdc5760a22bc81, type: 3}
-  contractCompletedSound: {fileID: 8300000, guid: 7bef0064f8567430cac22499c6b93d4f, type: 3}
+  openUISound: {fileID: 8300000, guid: 6e8772b49f34d402a90016ed445d8a2f, type: 3}
+  closeUISound: {fileID: 8300000, guid: 81652031b64c342cc8dbc59c138d77c5, type: 3}
+  contractStartedSound: {fileID: 8300000, guid: 7bd6b897eb5ca4b7d88a205c4a51640c, type: 3}
+  contractCompletedSound: {fileID: 8300000, guid: 79180f511d89441b9aa23ccae1992fe0, type: 3}
   itemDeliveredSound: {fileID: 8300000, guid: 0994c12e202f342459a4212e7287f7e8, type: 3}
