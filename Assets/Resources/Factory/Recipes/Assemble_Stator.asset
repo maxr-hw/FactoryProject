@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb71c9e6ff6c454090b53cba1d393af, type: 3}
+  m_Name: Assemble_Stator
+  m_EditorClassIdentifier: Assembly-CSharp::Factory.Core.Recipe
+  inputs:
+  - item: {fileID: 11400000, guid: 4d671c23ac8569c4185978271a29cbf8, type: 2}
+    amount: 8
+  - item: {fileID: 11400000, guid: 776a2520e88165543b2adb5705d590b9, type: 2}
+    amount: 3
+  outputs:
+  - item: {fileID: 11400000, guid: 2b8ca01b1c0893f48bfacfcb53850dff, type: 2}
+    amount: 1
+  processingTime: 6

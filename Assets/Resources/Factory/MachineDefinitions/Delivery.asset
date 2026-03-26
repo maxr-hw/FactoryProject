@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4392ccaa6036b704489cb56ec91f7704, type: 3}
+  m_Name: Delivery
+  m_EditorClassIdentifier: Assembly-CSharp::Factory.Core.MachineDefinition
+  machineName: Delivery
+  cost: 300
+  size: {x: 2, y: 2}
+  type: 9
+  prefab: {fileID: 1953890244190050943, guid: d164b0d931104224bbf2fe3029ab3147, type: 3}
+  defaultRecipe: {fileID: 0}

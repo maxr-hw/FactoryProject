@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d13740d7b55a51f46b149dd84a61febf, type: 3}
+  m_Name: Iron_Ore
+  m_EditorClassIdentifier: Assembly-CSharp::Factory.Core.ItemDefinition
+  id: iron_ore
+  itemName: Iron Ore
+  icon: {fileID: 0}
+  itemColor: {r: 0.55, g: 0.2343, b: 0.165, a: 1}
+  modelPrefab: {fileID: 919132149155446097, guid: 22f7663a65d95c5489b9a94f98d9704b, type: 3}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Poster - Factory Automation</title>
+    <style>
+        :root {
+            --primary-bg: #0d1117;
+            --secondary-bg: #161b22;
+            --accent-blue: #58a6ff;
+            --accent-orange: #f0883e;
+            --text-color: #c9d1d9;
+            --header-color: #ffffff;
+            --border-color: #30363d;
+        }
+
+        @page {
+            size: A1;
+            margin: 0;
+        }
+
+        body {
+            margin: 0;
+            padding: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-color);
+            width: 594mm;
+            height: 841mm;
+            box-sizing: border-box;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            gap: 30px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--accent-blue);
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 80px;
+            margin: 0;
+            color: var(--header-color);
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+        .authors {
+            font-size: 32px;
+            color: var(--accent-blue);
+            margin-top: 10px;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto auto;
+            gap: 30px;
+        }
+
+        section {
+            background: var(--secondary-bg);
+            padding: 30px;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            font-size: 40px;
+            color: var(--accent-orange);
+            margin-top: 0;
+            border-left: 8px solid var(--accent-orange);
+            padding-left: 20px;
+            text-transform: uppercase;
+        }
+
+        p, li {
+            font-size: 24px;
+            line-height: 1.6;
+        }
+
+        .visual-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .visual-container img {
+            max-width: 100%;
+            border-radius: 8px;
+            border: 2px solid var(--border-color);
+        }
+
+        .full-width {
+            grid-column: span 2;
+        }
+
+        .diagram-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            border-top: 2px solid var(--accent-blue);
+            padding-top: 20px;
+            font-size: 20px;
+        }
+
+        .supervisor-section {
+            text-align: left;
+        }
+
+        .supervisor-section span {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .school-logo {
+            font-weight: bold;
+            font-size: 28px;
+            color: var(--header-color);
+        }
+
+        .highlight {
+            color: var(--accent-blue);
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Factory Automation: Industrial Optimizer</h1>
+        <div class="authors">Hombreux-Wang Maxime & Jusseaume Baptiste</div>
+    </header>
+
+    <main>
+        <!-- Problematic -->
+        <section>
+            <h2>Problematic</h2>
+            <p>The core challenge addressed by this project is the optimization of industrial logistics and resource management within a virtual environment. As production systems grow in complexity, the need for intuitive, scalable, and modular automation tools becomes critical.</p>
+            <ul>
+                <li><span class="highlight">Efficiency:</span> How to manage hundreds of items per minute without bottlenecking?</li>
+                <li><span class="highlight">Scalability:</span> Ensuring the engine can handle large-scale grids and complex connection graphs.</li>
+                <li><span class="highlight">Optimization:</span> Providing players with the data-driven tools needed to refine their supply chains.</li>
+            </ul>
+        </section>
+
+        <!-- Technical Conception -->
+        <section>
+            <h2>Conception & Development</h2>
+            <p>Built using <span class="highlight">Unity 6</span> and <span class="highlight">C#</span>, the application leverages a modular architecture designed for high performance and extensibility.</p>
+            <ul>
+                <li><strong>Grid-Based System:</strong> Precise machine placement and conveyor snapping.</li>
+                <li><strong>ScriptableObjects:</strong> Decoupled data management for items, recipes, and contracts.</li>
+                <li><strong>Vibe Unity Integration:</strong> Automated scene creation and component management for rapid iteration.</li>
+                <li><strong>State Management:</strong> Centralized managers for Economy, Contracts, and Building logic.</li>
+            </ul>
+        </section>
+
+        <!-- Main Visual -->
+        <section class="full-width">
+            <h2>Factory in Action</h2>
+            <div class="visual-container">
+                <img src="factory_main_view.png" alt="Factory Overview">
+                <p>Isometric view of a complex automated production line with interconnected machines.</p>
+            </div>
+        </section>
+
+        <!-- UX Study -->
+        <section>
+            <h2>UX Study</h2>
+            <p>The user experience is centered around <span class="highlight">Clarity</span> and <span class="highlight">Flow</span>. We focused on reducing cognitive load while providing deep analytical tools.</p>
+            <div class="visual-container">
+                <img src="ui_menu_view.png" alt="UI Menu Design">
+                <p>Minimalist HUD and "Materials & Recipes" browser providing instant access to production data (P Key).</p>
+            </div>
+        </section>
+
+        <!-- Gameplay Scenario -->
+        <section>
+            <h2>Gameplay Scenario</h2>
+            <p>A typical session follows a cycle of strategic expansion and optimization:</p>
+            <div class="diagram-grid">
+                <ul>
+                    <li><strong>Step 1:</strong> Placement of primary miners and smelters.</li>
+                    <li><strong>Step 2:</strong> Intelligent routing via conveyors & splitters.</li>
+                    <li><strong>Step 3:</strong> Contract fulfillment for capital gains.</li>
+                    <li><strong>Step 4:</strong> Research and unlocking of advanced machinery.</li>
+                </ul>
+                <div class="visual-container">
+                    <img src="user_journey_diagram.png" alt="User Journey Diagram">
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusion -->
+        <section class="full-width">
+            <h2>Conclusion & Future Works</h2>
+            <p>This prototype successfully demonstrates the core loop of industrial automation. While the foundation is solid, several exciting avenues remain for expansion:</p>
+            <ul>
+                <li><strong>Current State:</strong> Stable building, production, and economic systems with a tiered progression.</li>
+                <li><strong>Future Works:</strong> Advanced power management (Energy Grids), Multiplayer coop, and Planetary colonization mechanics.</li>
+                <li><strong>Polish:</strong> Implementation of higher-fidelity particle systems for industrial feedback.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="supervisor-section">
+            <span class="highlight">Supervised by:</span>
+            <span>[Tutor Name], William Lina, [Professor Name]</span>
+        </div>
+        <div class="school-logo">UX Design Master Course</div>
+    </footer>
+</body>
+</html>

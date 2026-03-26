@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb71c9e6ff6c454090b53cba1d393af, type: 3}
+  m_Name: Construct_IronRod
+  m_EditorClassIdentifier: Assembly-CSharp::Factory.Core.Recipe
+  inputs:
+  - item: {fileID: 11400000, guid: 6a4d895853aa39d4fbd6ed6d8f6e6279, type: 2}
+    amount: 1
+  outputs:
+  - item: {fileID: 11400000, guid: 50d3e4b828a678841a9bdaa78b077464, type: 2}
+    amount: 1
+  processingTime: 2

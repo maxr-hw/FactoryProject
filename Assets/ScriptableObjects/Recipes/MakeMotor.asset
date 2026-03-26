@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb71c9e6ff6c454090b53cba1d393af, type: 3}
+  m_Name: MakeMotor
+  m_EditorClassIdentifier: Assembly-CSharp::Factory.Core.Recipe
+  inputs:
+  - item: {fileID: 11400000, guid: 330ca18e0c6a67640bbd5a7f85112bde, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: c0d3a2e311aeae546af8dce5ec271e21, type: 2}
+    amount: 1
+  outputs:
+  - item: {fileID: 11400000, guid: 72360d1b7a9a60b4da08d8b4fc53fe72, type: 2}
+    amount: 1
+  processingTime: 8

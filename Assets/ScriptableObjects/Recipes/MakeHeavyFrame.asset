@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb71c9e6ff6c454090b53cba1d393af, type: 3}
+  m_Name: MakeHeavyFrame
+  m_EditorClassIdentifier: Assembly-CSharp::Factory.Core.Recipe
+  inputs:
+  - item: {fileID: 11400000, guid: 8ae3c122cac496244bd3f3a1c844dc6f, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 48c829251c1cdc041a8ff106adaeffb9, type: 2}
+    amount: 1
+  outputs:
+  - item: {fileID: 11400000, guid: c800eca43030f4d4ebc75d86f25906cc, type: 2}
+    amount: 1
+  processingTime: 10

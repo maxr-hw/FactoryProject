@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcbf73d6b2498a4dac8ce4a4ca613eb, type: 3}
+  m_Name: DassaultspeedContract
+  m_EditorClassIdentifier: Assembly-CSharp::Factory.Contracts.ContractDefinition
+  companyName: Dassault-speed
+  description: Plates and screws for the new Rafale prototype.
+  difficultyRating: 3
+  requiredItems:
+  - item: {fileID: 11400000, guid: 659dd9836a6205f47ab1c3dc3e23796c, type: 2}
+    amount: 40
+  - item: {fileID: 11400000, guid: 6be5dac7f48c0e74893020f65378518d, type: 2}
+    amount: 200
+  timeLimit: 400
+  rewardMoney: 2500
+  unlocksMachines: []
+  unlocksRecipes: []

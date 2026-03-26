@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4392ccaa6036b704489cb56ec91f7704, type: 3}
+  m_Name: Power Pole
+  m_EditorClassIdentifier: Assembly-CSharp::Factory.Core.MachineDefinition
+  machineName: Power Pole
+  cost: 50
+  size: {x: 1, y: 1}
+  type: 7
+  prefab: {fileID: 4826176870313393812, guid: 622f1b55d5cdb4e4ca23a90cb038e642, type: 3}
+  defaultRecipe: {fileID: 0}

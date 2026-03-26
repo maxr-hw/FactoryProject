@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb71c9e6ff6c454090b53cba1d393af, type: 3}
+  m_Name: Adv_SmartPlate
+  m_EditorClassIdentifier: Assembly-CSharp::Factory.Core.Recipe
+  inputs:
+  - item: {fileID: 11400000, guid: 1ecbf48920303424d97cb48b163596cb, type: 2}
+    amount: 3
+  - item: {fileID: 11400000, guid: 6be5dac7f48c0e74893020f65378518d, type: 2}
+    amount: 6
+  outputs:
+  - item: {fileID: 11400000, guid: 1b467528f6daca542b214c590ad386ce, type: 2}
+    amount: 1
+  processingTime: 6
